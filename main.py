@@ -41,4 +41,4 @@ def send_text(message):
         bot.send_message(message.chat.id, "Вы угадали число!")
 
 
-bot.polling()
+bot.polling(none_stop=True)
