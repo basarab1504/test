@@ -1,2 +1,2 @@
 
-bot: python3 chat.py
+worker: python3 chat.py
